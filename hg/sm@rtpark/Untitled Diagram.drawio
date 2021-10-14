@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T06:34:38.346Z" agent="5.0 (Windows)" etag="V0d2gs9iojvtQhPbX5h6" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T06:42:27.267Z" agent="5.0 (Windows)" etag="Ye4tSX4s4uK4HB6tz8Mn" version="15.5.2" type="github">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="Page-1">
-    <mxGraphModel dx="1736" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1447" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-25" value="&lt;div&gt;和停车管理平台总体系统处理流程&lt;/div&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;sketch=0;glass=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="70" y="40" width="1220" height="620" as="geometry">
+          <mxGeometry x="70" y="40" width="1220" height="740" as="geometry">
             <mxRectangle x="70" y="40" width="60" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -49,7 +49,7 @@
           <mxGeometry y="380" width="1220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-31" value="岗亭" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Vf63_TqQqZUZ0cF1td8W-25">
-          <mxGeometry y="500" width="1220" height="120" as="geometry" />
+          <mxGeometry y="500" width="1220" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Vf63_TqQqZUZ0cF1td8W-25" source="Vf63_TqQqZUZ0cF1td8W-35" target="Vf63_TqQqZUZ0cF1td8W-37">
           <mxGeometry relative="1" as="geometry" />
