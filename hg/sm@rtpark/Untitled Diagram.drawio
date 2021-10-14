@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T07:41:31.828Z" agent="5.0 (Windows)" etag="p0DY0M_XMs0WxoDMjOve" version="15.5.2" type="github">
-  <diagram id="DzECSvU7NwYgkoOeOgAR" name="Page-1">
-    <mxGraphModel dx="2170" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-10-14T08:14:32.819Z" agent="5.0 (Windows)" etag="exDrn0TDy_4sXKRmf_BD" version="15.5.2" type="github" pages="2">
+  <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
+    <mxGraphModel dx="1736" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,6 +154,70 @@
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Vf63_TqQqZUZ0cF1td8W-25" source="Vf63_TqQqZUZ0cF1td8W-103" target="Vf63_TqQqZUZ0cF1td8W-107">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sf-p57u63ySz5b5HRxqj" name="总体系统接口交互图">
+    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="JTeqgi6demuVBpDOucdS-0" />
+        <mxCell id="JTeqgi6demuVBpDOucdS-1" parent="JTeqgi6demuVBpDOucdS-0" />
+        <mxCell id="JTeqgi6demuVBpDOucdS-2" value="停车业务管理模块" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="521" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-2">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-4" value="IOT设备管理模块" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="241" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-5" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-4">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-6" value="支付模块" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="521" y="320" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-7" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-6">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-8" value="车牌一体机" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="241" y="320" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-9" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-8">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-10" value="微信支付" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="398" y="480" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-11" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-12" value="支付宝支付" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="640" y="480" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-13" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-12">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-14" value="财务系统模块" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="801" y="320" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JTeqgi6demuVBpDOucdS-15" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-14">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
