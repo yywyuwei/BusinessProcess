@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T08:50:48.335Z" agent="5.0 (Windows)" etag="DVSaV_CjTGRYQAkJAO2Y" version="15.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-14T09:17:19.264Z" agent="5.0 (Windows)" etag="YaSyNmlm2d81T9X_3cbv" version="15.5.2" type="github" pages="2">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="1736" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,6 +163,9 @@
       <root>
         <mxCell id="JTeqgi6demuVBpDOucdS-0" />
         <mxCell id="JTeqgi6demuVBpDOucdS-1" parent="JTeqgi6demuVBpDOucdS-0" />
+        <mxCell id="CoHXBE15oOY0NPKFKDKA-21" value="" style="shape=partialRectangle;html=1;top=1;align=left;dashed=1;rounded=0;shadow=0;glass=0;sketch=0;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
+          <mxGeometry x="190" y="110" width="570" height="340" as="geometry" />
+        </mxCell>
         <mxCell id="JTeqgi6demuVBpDOucdS-2" value="停车业务管理模块" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
           <mxGeometry x="521" y="160" width="180" height="90" as="geometry" />
         </mxCell>
@@ -170,6 +173,9 @@
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CoHXBE15oOY0NPKFKDKA-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="JTeqgi6demuVBpDOucdS-1" source="JTeqgi6demuVBpDOucdS-4" target="CoHXBE15oOY0NPKFKDKA-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JTeqgi6demuVBpDOucdS-4" value="IOT设备管理模块" style="html=1;dropTarget=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;verticalAlign=middle;" vertex="1" parent="JTeqgi6demuVBpDOucdS-1">
           <mxGeometry x="241" y="160" width="180" height="90" as="geometry" />
