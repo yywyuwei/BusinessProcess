@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T09:10:36.472Z" agent="5.0 (Windows)" etag="zaE-qg9gvVaoHzRjgTnn" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-26T09:15:32.347Z" agent="5.0 (Windows)" etag="bMrmz2DFv_ilKA7rMftw" version="15.5.2" type="github" pages="4">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,7 +292,7 @@
         <mxCell id="G2nsWywql0pJUyuvfi7V-0" />
         <mxCell id="G2nsWywql0pJUyuvfi7V-1" parent="G2nsWywql0pJUyuvfi7V-0" />
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-19" value="&lt;div&gt;停车业务管理模块&lt;/div&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="G2nsWywql0pJUyuvfi7V-1">
-          <mxGeometry x="200" y="440" width="1210" height="920" as="geometry" />
+          <mxGeometry x="200" y="440" width="1040" height="920" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-20" value="InoutRecondService&lt;br&gt;&lt;div&gt;(出入场记录服务)&lt;/div&gt;" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
           <mxGeometry y="20" width="200" height="900" as="geometry">
@@ -405,12 +405,6 @@
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-59" value="step5:费用加总" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
           <mxGeometry x="25" y="722" width="120" height="71" as="geometry" />
-        </mxCell>
-        <mxCell id="-NE-6ThSw2DmtrxB-9kS-38" value="LotService&lt;br&gt;（车场服务）" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry x="1040" y="20" width="170" height="900" as="geometry" />
-        </mxCell>
-        <mxCell id="-NE-6ThSw2DmtrxB-9kS-39" value="更新车场已占用车位&lt;br&gt;&amp;amp;生成入场车辆清单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-38">
-          <mxGeometry x="25" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-19" source="3IVuTkYaXDqOWIbJNFdR-1" target="-NE-6ThSw2DmtrxB-9kS-37">
           <mxGeometry relative="1" as="geometry" />
