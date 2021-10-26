@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T08:48:37.049Z" agent="5.0 (Windows)" etag="z1FwxIuFW-0iBj_5HrDU" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-26T09:03:16.011Z" agent="5.0 (Windows)" etag="ZDnO5kP2vtOJGQsZd-_Y" version="15.5.2" type="github" pages="4">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -291,24 +291,11 @@
       <root>
         <mxCell id="G2nsWywql0pJUyuvfi7V-0" />
         <mxCell id="G2nsWywql0pJUyuvfi7V-1" parent="G2nsWywql0pJUyuvfi7V-0" />
-        <mxCell id="-NE-6ThSw2DmtrxB-9kS-14" value="" style="group" vertex="1" connectable="0" parent="G2nsWywql0pJUyuvfi7V-1">
-          <mxGeometry x="280" y="70" width="790" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="xzynLY4vM1F57kmR_Zrr-0" value="InoutRecondService" style="swimlane;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-14">
-          <mxGeometry width="290" height="400" as="geometry">
-            <mxRectangle x="280" y="70" width="150" height="23" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-NE-6ThSw2DmtrxB-9kS-13" value="OrderService" style="swimlane;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-14">
-          <mxGeometry x="290" width="300" height="400" as="geometry">
-            <mxRectangle x="290" width="140" height="23" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-19" value="&lt;div&gt;停车业务管理模块&lt;/div&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="G2nsWywql0pJUyuvfi7V-1">
-          <mxGeometry x="435" y="610" width="1210" height="840" as="geometry" />
+          <mxGeometry x="200" y="440" width="1210" height="920" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-20" value="InoutRecondService&lt;br&gt;&lt;div&gt;(出入场记录服务)&lt;/div&gt;" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry y="20" width="200" height="820" as="geometry">
+          <mxGeometry y="20" width="200" height="900" as="geometry">
             <mxRectangle y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -322,7 +309,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-21" value="InoutProducer&lt;br&gt;&lt;div&gt;(出入场消息生产者)&lt;/div&gt;" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry x="200" y="20" width="180" height="820" as="geometry">
+          <mxGeometry x="200" y="20" width="180" height="900" as="geometry">
             <mxRectangle x="200" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -330,7 +317,7 @@
           <mxGeometry x="30" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-22" value="RocketMQ&lt;br&gt;(消息队列)" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry x="380" y="20" width="170" height="820" as="geometry">
+          <mxGeometry x="380" y="20" width="170" height="900" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -338,13 +325,13 @@
           <mxGeometry x="32" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-23" value="LotConsumer&lt;br&gt;(车场消费者)" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry x="550" y="20" width="150" height="820" as="geometry" />
+          <mxGeometry x="550" y="20" width="150" height="900" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-30" value="消费入场消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-23">
           <mxGeometry x="15" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-26" value="LotService&lt;br&gt;（车场服务）" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry x="700" y="20" width="170" height="820" as="geometry">
+          <mxGeometry x="700" y="20" width="170" height="900" as="geometry">
             <mxRectangle x="700" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -367,7 +354,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-36" value="OrderService&lt;br&gt;（订单服务）" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry x="870" y="20" width="170" height="820" as="geometry" />
+          <mxGeometry x="870" y="20" width="170" height="900" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-37" target="-NE-6ThSw2DmtrxB-9kS-42">
           <mxGeometry relative="1" as="geometry" />
@@ -388,14 +375,14 @@
           <mxGeometry x="45" y="430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-50" value="&lt;div&gt;结束生成订单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
-          <mxGeometry x="35" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="35" y="817" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-46" target="-NE-6ThSw2DmtrxB-9kS-50">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="155" y="470" />
-              <mxPoint x="155" y="690" />
-              <mxPoint x="95" y="690" />
+              <mxPoint x="155" y="780" />
+              <mxPoint x="95" y="780" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -404,11 +391,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-54" target="-NE-6ThSw2DmtrxB-9kS-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-54" value="step3:计算包含完整的计费周期并计费：包含几个完整的自然日？24小时？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
           <mxGeometry x="25" y="539" width="120" height="71" as="geometry" />
         </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-57" value="step4:不满足计算完整计费周期部分计费：按车型计费？分段计费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
+          <mxGeometry x="25" y="630" width="120" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-59" value="step5:费用加总" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
+          <mxGeometry x="25" y="720" width="120" height="71" as="geometry" />
+        </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-38" value="LotService&lt;br&gt;（车场服务）" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
-          <mxGeometry x="1040" y="20" width="170" height="820" as="geometry" />
+          <mxGeometry x="1040" y="20" width="170" height="900" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-39" value="更新车场已占用车位&lt;br&gt;&amp;amp;生成入场车辆清单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-38">
           <mxGeometry x="25" y="170" width="120" height="60" as="geometry" />
@@ -425,7 +421,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-47" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="G2nsWywql0pJUyuvfi7V-1">
-          <mxGeometry x="1530" y="1135" width="120" height="60" as="geometry" />
+          <mxGeometry x="1295" y="965" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="G2nsWywql0pJUyuvfi7V-1" source="-NE-6ThSw2DmtrxB-9kS-44" target="-NE-6ThSw2DmtrxB-9kS-47">
           <mxGeometry relative="1" as="geometry" />
