@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T09:15:32.347Z" agent="5.0 (Windows)" etag="bMrmz2DFv_ilKA7rMftw" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-26T09:19:53.186Z" agent="5.0 (Windows)" etag="AgryNoxGfNsg4A3FrTkz" version="15.5.2" type="github" pages="4">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -397,8 +397,8 @@
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-57" target="-NE-6ThSw2DmtrxB-9kS-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-NE-6ThSw2DmtrxB-9kS-57" value="step4:不满足计算完整计费周期部分计费：按车型计费？分段计费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
-          <mxGeometry x="25" y="630" width="120" height="71" as="geometry" />
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-57" value="step4:不满足计算完整计费周期部分计费：按车型计费？不满足一个计费单位是否计费？分段计费？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
+          <mxGeometry x="25" y="630" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-59" target="-NE-6ThSw2DmtrxB-9kS-50">
           <mxGeometry relative="1" as="geometry" />
