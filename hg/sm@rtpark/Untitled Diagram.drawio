@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T09:03:16.011Z" agent="5.0 (Windows)" etag="ZDnO5kP2vtOJGQsZd-_Y" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-26T09:05:26.340Z" agent="5.0 (Windows)" etag="NHceWZoOvDVd0m73FbWO" version="15.5.2" type="github" pages="4">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,14 +375,14 @@
           <mxGeometry x="45" y="430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-50" value="&lt;div&gt;结束生成订单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
-          <mxGeometry x="35" y="817" width="120" height="60" as="geometry" />
+          <mxGeometry x="25" y="828" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-46" target="-NE-6ThSw2DmtrxB-9kS-50">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="155" y="470" />
-              <mxPoint x="155" y="780" />
-              <mxPoint x="95" y="780" />
+              <mxPoint x="155" y="810" />
+              <mxPoint x="85" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -397,11 +397,17 @@
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-54" value="step3:计算包含完整的计费周期并计费：包含几个完整的自然日？24小时？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
           <mxGeometry x="25" y="539" width="120" height="71" as="geometry" />
         </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-57" target="-NE-6ThSw2DmtrxB-9kS-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-57" value="step4:不满足计算完整计费周期部分计费：按车型计费？分段计费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
           <mxGeometry x="25" y="630" width="120" height="71" as="geometry" />
         </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-59" target="-NE-6ThSw2DmtrxB-9kS-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-59" value="step5:费用加总" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
-          <mxGeometry x="25" y="720" width="120" height="71" as="geometry" />
+          <mxGeometry x="25" y="722" width="120" height="71" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-38" value="LotService&lt;br&gt;（车场服务）" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
           <mxGeometry x="1040" y="20" width="170" height="900" as="geometry" />
