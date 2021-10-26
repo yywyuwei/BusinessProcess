@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T08:22:11.188Z" agent="5.0 (Windows)" etag="WbFo9wrfToauvSz9q0IH" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-26T08:31:46.829Z" agent="5.0 (Windows)" etag="lY3ROI62lUypTbuNUdGU" version="15.5.2" type="github" pages="4">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -351,6 +351,9 @@
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-32" value="更新车场已占用车位&lt;br&gt;&amp;amp;生成入场车辆清单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-26">
           <mxGeometry x="25" y="170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-55" value="step2:是否超过免费时长" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-26">
+          <mxGeometry x="26" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-27" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-19" source="3IVuTkYaXDqOWIbJNFdR-1" target="-NE-6ThSw2DmtrxB-9kS-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -369,14 +372,37 @@
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-37" target="-NE-6ThSw2DmtrxB-9kS-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-NE-6ThSw2DmtrxB-9kS-37" value="&lt;div&gt;生成收费订单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-37" value="&lt;div&gt;开始生成订单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
           <mxGeometry x="25" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-42" target="-NE-6ThSw2DmtrxB-9kS-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-42" value="step1:查询出入场记录，计算停留时长(秒)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
           <mxGeometry x="25" y="360" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-46" value="step2:是否超过免费时长" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
-          <mxGeometry x="45" y="420" width="80" height="80" as="geometry" />
+          <mxGeometry x="45" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-50" value="&lt;div&gt;结束生成订单&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
+          <mxGeometry x="35" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-NE-6ThSw2DmtrxB-9kS-36" source="-NE-6ThSw2DmtrxB-9kS-46" target="-NE-6ThSw2DmtrxB-9kS-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="470" />
+              <mxPoint x="155" y="690" />
+              <mxPoint x="95" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-53" value="&lt;div&gt;否&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-NE-6ThSw2DmtrxB-9kS-52">
+          <mxGeometry x="-0.4516" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-NE-6ThSw2DmtrxB-9kS-54" value="step3:查询出入场记录，计算停留时长(秒)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-36">
+          <mxGeometry x="25" y="539" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-NE-6ThSw2DmtrxB-9kS-38" value="LotService&lt;br&gt;（车场服务）" style="swimlane;html=1;startSize=30;" vertex="1" parent="-NE-6ThSw2DmtrxB-9kS-19">
           <mxGeometry x="1040" y="20" width="170" height="820" as="geometry" />
