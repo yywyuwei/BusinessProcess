@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T09:57:23.429Z" agent="5.0 (Windows)" etag="VDmDGzt53WfWYLx4FKzy" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-28T09:58:20.433Z" agent="5.0 (Windows)" etag="Ax6ohAIdnm5P84pYR0ns" version="15.5.2" type="github" pages="4">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-25" value="&lt;div&gt;和停车管理平台总体系统处理流程&lt;/div&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;sketch=0;glass=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="1740" height="860" as="geometry">
+          <mxGeometry x="70" y="40" width="1740" height="660" as="geometry">
             <mxRectangle x="70" y="40" width="60" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -57,9 +57,9 @@
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-103" value="接收指令开闸放行" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;" parent="Vf63_TqQqZUZ0cF1td8W-26" vertex="1">
           <mxGeometry x="1560" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vf63_TqQqZUZ0cF1td8W-27" value="和停车SaaS平台" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Vf63_TqQqZUZ0cF1td8W-25" vertex="1">
-          <mxGeometry y="380" width="1740" height="120" as="geometry">
-            <mxRectangle y="380" width="1230" height="20" as="alternateBounds" />
+        <mxCell id="Vf63_TqQqZUZ0cF1td8W-27" value="&lt;div&gt;和停车平台&lt;/div&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Vf63_TqQqZUZ0cF1td8W-25" vertex="1" collapsed="1">
+          <mxGeometry y="380" width="1740" height="20" as="geometry">
+            <mxRectangle y="380" width="1740" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Vf63_TqQqZUZ0cF1td8W-27" source="Vf63_TqQqZUZ0cF1td8W-37" target="Vf63_TqQqZUZ0cF1td8W-38" edge="1">
@@ -89,16 +89,16 @@
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-101" value="支付成功，下发指令" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;" parent="Vf63_TqQqZUZ0cF1td8W-27" vertex="1">
           <mxGeometry x="1560" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Vf63_TqQqZUZ0cF1td8W-28" value="和停车支付系统" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Vf63_TqQqZUZ0cF1td8W-25" vertex="1">
-          <mxGeometry y="500" width="1740" height="120" as="geometry">
-            <mxRectangle y="500" width="1230" height="20" as="alternateBounds" />
+        <mxCell id="Vf63_TqQqZUZ0cF1td8W-28" value="和停车支付系统" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Vf63_TqQqZUZ0cF1td8W-25" vertex="1" collapsed="1">
+          <mxGeometry y="400" width="1740" height="20" as="geometry">
+            <mxRectangle y="400" width="1740" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-97" value="调用三方(微信、支付宝)支付接口，发起扣款" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;" parent="Vf63_TqQqZUZ0cF1td8W-28" vertex="1">
           <mxGeometry x="1350" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-31" value="岗亭" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Vf63_TqQqZUZ0cF1td8W-25" vertex="1">
-          <mxGeometry y="620" width="1740" height="120" as="geometry">
+          <mxGeometry y="420" width="1740" height="120" as="geometry">
             <mxRectangle y="620" width="1230" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -109,7 +109,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-113" value="财务系统" style="swimlane;startSize=20;horizontal=0;rounded=0;shadow=0;glass=0;sketch=0;align=center;" parent="Vf63_TqQqZUZ0cF1td8W-25" vertex="1">
-          <mxGeometry y="740" width="1740" height="120" as="geometry" />
+          <mxGeometry y="540" width="1740" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Vf63_TqQqZUZ0cF1td8W-114" value="&lt;div&gt;推送成功支付订单到财务系统&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;align=center;" parent="Vf63_TqQqZUZ0cF1td8W-113" vertex="1">
           <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
