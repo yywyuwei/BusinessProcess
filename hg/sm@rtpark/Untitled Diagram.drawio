@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T09:02:53.542Z" agent="5.0 (Windows)" etag="qPlDp3Wr-44mpv4_Iyis" version="15.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-03T09:48:19.253Z" agent="5.0 (Windows)" etag="xfn2l88ZNFtQc9xZmnOq" version="15.5.2" type="github" pages="5">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -430,6 +430,23 @@
       <root>
         <mxCell id="xAXA1vDhK8jmcHNzy-Zu-0" />
         <mxCell id="xAXA1vDhK8jmcHNzy-Zu-1" parent="xAXA1vDhK8jmcHNzy-Zu-0" />
+        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xAXA1vDhK8jmcHNzy-Zu-1" source="xAXA1vDhK8jmcHNzy-Zu-2" target="xAXA1vDhK8jmcHNzy-Zu-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.9307359042632" y="130.6798598277594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xAXA1vDhK8jmcHNzy-Zu-1" source="xAXA1vDhK8jmcHNzy-Zu-2" target="xAXA1vDhK8jmcHNzy-Zu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-2" value="平台方运营人员" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
+          <mxGeometry x="60" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-24" value="企业注册" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
+          <mxGeometry x="350" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-25" value="开通项目" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
+          <mxGeometry x="350" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
