@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T09:49:58.128Z" agent="5.0 (Windows)" etag="5Z3P7lwiB7P8VO2Hy60c" version="15.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-03T09:50:42.745Z" agent="5.0 (Windows)" etag="uKSUUBfrOZ2brrTcJ00Q" version="15.5.2" type="github" pages="5">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -453,10 +453,10 @@
         <mxCell id="xAXA1vDhK8jmcHNzy-Zu-25" value="开通项目" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
           <mxGeometry x="350" y="230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-29" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
+        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-29" value="初始化账户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
           <mxGeometry x="570" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-30" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
+        <mxCell id="xAXA1vDhK8jmcHNzy-Zu-30" value="发起账户信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xAXA1vDhK8jmcHNzy-Zu-1">
           <mxGeometry x="570" y="140" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
