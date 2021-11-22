@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T05:30:57.262Z" agent="5.0 (Windows)" etag="8a0UBUPTtPqyZHdektTY" version="15.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-22T09:34:56.512Z" agent="5.0 (Windows)" etag="hoG0UY5aapQngJr4v6V4" version="15.5.2" type="github" pages="7">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -463,7 +463,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_XVkoQdGHsPLqXZuXL2_" name="系统用例-商户运营方">
-    <mxGraphModel dx="1695" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2274" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oO856ExnGzPjmYk0XEXn-0" />
         <mxCell id="oO856ExnGzPjmYk0XEXn-1" parent="oO856ExnGzPjmYk0XEXn-0" />
@@ -602,6 +602,14 @@
             <mxPoint x="340" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xMcGX0HVTXkS029tIjGP" name="整体技术架构图">
+    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="-28rHK7A_CwQRPw1xP85-0" />
+        <mxCell id="-28rHK7A_CwQRPw1xP85-1" parent="-28rHK7A_CwQRPw1xP85-0" />
       </root>
     </mxGraphModel>
   </diagram>
