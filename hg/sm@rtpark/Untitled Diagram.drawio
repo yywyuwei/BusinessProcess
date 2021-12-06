@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T08:38:12.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="KiV8KVcsM7VuqNrDKXGn" version="15.9.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-06T08:44:32.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="AgPAj1PlCFMSqZoy-irp" version="15.9.1" type="github" pages="7">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="830" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1096,7 +1096,7 @@
         <mxCell id="oc2LODxZSI1QTQIaEUhS-112" value="" style="group" parent="oc2LODxZSI1QTQIaEUhS-111" vertex="1" connectable="0">
           <mxGeometry width="176" height="78.5" as="geometry" />
         </mxCell>
-        <mxCell id="oc2LODxZSI1QTQIaEUhS-113" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#409EFF;fillColor=none;" parent="oc2LODxZSI1QTQIaEUhS-112" vertex="1">
+        <mxCell id="oc2LODxZSI1QTQIaEUhS-113" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#409EFF;fillColor=none;" parent="oc2LODxZSI1QTQIaEUhS-112" vertex="1">
           <mxGeometry width="176" height="78.5" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-114" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://nacos.io/img/nacos_colorful.png;" parent="oc2LODxZSI1QTQIaEUhS-112" vertex="1">
@@ -1114,7 +1114,7 @@
         <mxCell id="oc2LODxZSI1QTQIaEUhS-118" value="" style="group" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1" connectable="0">
           <mxGeometry x="740" y="170" width="190.75" height="91.5" as="geometry" />
         </mxCell>
-        <mxCell id="oc2LODxZSI1QTQIaEUhS-119" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#409EFF;fillColor=none;" parent="oc2LODxZSI1QTQIaEUhS-118" vertex="1">
+        <mxCell id="oc2LODxZSI1QTQIaEUhS-119" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#409EFF;fillColor=none;" parent="oc2LODxZSI1QTQIaEUhS-118" vertex="1">
           <mxGeometry width="176" height="78.5" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-120" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Redis集群&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#333333;fontStyle=1;align=center;" parent="oc2LODxZSI1QTQIaEUhS-118" vertex="1">
@@ -1132,7 +1132,7 @@
         <mxCell id="oc2LODxZSI1QTQIaEUhS-124" value="" style="group" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1" connectable="0">
           <mxGeometry x="950" y="170" width="190.75" height="91.5" as="geometry" />
         </mxCell>
-        <mxCell id="oc2LODxZSI1QTQIaEUhS-125" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#409EFF;fillColor=none;" parent="oc2LODxZSI1QTQIaEUhS-124" vertex="1">
+        <mxCell id="oc2LODxZSI1QTQIaEUhS-125" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#409EFF;fillColor=none;" parent="oc2LODxZSI1QTQIaEUhS-124" vertex="1">
           <mxGeometry width="176" height="78.5" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-126" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RoctetMQ集群&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#333333;fontStyle=1;align=center;" parent="oc2LODxZSI1QTQIaEUhS-124" vertex="1">
