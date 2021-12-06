@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T08:37:04.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="wzH44WEuV9FEGdK3KeoZ" version="15.9.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-06T08:38:12.101Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="KiV8KVcsM7VuqNrDKXGn" version="15.9.1" type="github" pages="7">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="830" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -788,7 +788,7 @@
           <mxGeometry x="1659" y="785" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-10" value="OSS存储" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Backup.svg;fontColor=#333333;strokeWidth=1;fillColor=none;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1320" y="710" width="50" height="42" as="geometry" />
+          <mxGeometry x="1343" y="180" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-11" value="" style="group" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1" connectable="0">
           <mxGeometry x="282" y="843.5" width="176" height="91.5" as="geometry" />
@@ -1179,6 +1179,9 @@
         </mxCell>
         <mxCell id="lnp73TLgd65VNtihpmOI-12" value="&lt;p style=&quot;line-height: 1&quot;&gt;&lt;b&gt;jeepay-ui-cashier&lt;/b&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#333333;fontStyle=1;align=center;" vertex="1" parent="lnp73TLgd65VNtihpmOI-8">
           <mxGeometry y="45.5" width="176" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="-28rHK7A_CwQRPw1xP85-1">
+          <mxGeometry x="270" y="310" width="1260" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
