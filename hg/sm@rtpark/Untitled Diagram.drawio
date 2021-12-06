@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T08:35:48.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="OUn1RY3o-1SFBPv26e6P" version="15.9.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-06T08:37:04.962Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="wzH44WEuV9FEGdK3KeoZ" version="15.9.1" type="github" pages="7">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="830" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -573,7 +573,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BpG4tM7gln12_O7b8K3b" name="系统用例-平台方">
-    <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xAXA1vDhK8jmcHNzy-Zu-0" />
         <mxCell id="xAXA1vDhK8jmcHNzy-Zu-1" parent="xAXA1vDhK8jmcHNzy-Zu-0" />
@@ -610,7 +610,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_XVkoQdGHsPLqXZuXL2_" name="系统用例-商户运营方">
-    <mxGraphModel dx="2274" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oO856ExnGzPjmYk0XEXn-0" />
         <mxCell id="oO856ExnGzPjmYk0XEXn-1" parent="oO856ExnGzPjmYk0XEXn-0" />
@@ -1177,7 +1177,7 @@
         <mxCell id="lnp73TLgd65VNtihpmOI-11" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontColor=#409EFF;fillColor=none;" vertex="1" parent="lnp73TLgd65VNtihpmOI-8">
           <mxGeometry width="176" height="78.5" as="geometry" />
         </mxCell>
-        <mxCell id="lnp73TLgd65VNtihpmOI-12" value="&lt;p style=&quot;line-height: 1&quot;&gt;&lt;b&gt;jeepay-ui-manager&lt;/b&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#333333;fontStyle=1;align=center;" vertex="1" parent="lnp73TLgd65VNtihpmOI-8">
+        <mxCell id="lnp73TLgd65VNtihpmOI-12" value="&lt;p style=&quot;line-height: 1&quot;&gt;&lt;b&gt;jeepay-ui-cashier&lt;/b&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#333333;fontStyle=1;align=center;" vertex="1" parent="lnp73TLgd65VNtihpmOI-8">
           <mxGeometry y="45.5" width="176" height="46" as="geometry" />
         </mxCell>
       </root>
