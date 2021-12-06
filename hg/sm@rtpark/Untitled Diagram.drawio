@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T09:32:15.883Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="EVoA90lKg4hTOQFxDldw" version="15.9.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-06T09:33:33.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="p43V3SXZKh2RDFCGRc4W" version="15.9.1" type="github" pages="7">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="830" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -753,7 +753,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMcGX0HVTXkS029tIjGP" name="整体技术架构图">
-    <mxGraphModel dx="553" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="208" dy="186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-28rHK7A_CwQRPw1xP85-0" />
         <mxCell id="-28rHK7A_CwQRPw1xP85-1" parent="-28rHK7A_CwQRPw1xP85-0" />
@@ -1220,8 +1220,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e9DWrDb203leDy7fHvNe-19" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;startArrow=classic;startFill=1;" edge="1" parent="-28rHK7A_CwQRPw1xP85-1" source="oc2LODxZSI1QTQIaEUhS-125" target="e9DWrDb203leDy7fHvNe-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e9DWrDb203leDy7fHvNe-19" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;startArrow=classic;startFill=1;entryX=0.609;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-28rHK7A_CwQRPw1xP85-1" source="oc2LODxZSI1QTQIaEUhS-125" target="e9DWrDb203leDy7fHvNe-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-23" value="消息队列服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e9DWrDb203leDy7fHvNe-19">
+          <mxGeometry x="-0.1367" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e9DWrDb203leDy7fHvNe-21" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;elbow=horizontal;html=1;startArrow=classic;startFill=1;entryX=0.61;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-28rHK7A_CwQRPw1xP85-1" source="oc2LODxZSI1QTQIaEUhS-125" target="e9DWrDb203leDy7fHvNe-0">
           <mxGeometry relative="1" as="geometry" />
