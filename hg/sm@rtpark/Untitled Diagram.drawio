@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T09:33:33.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="p43V3SXZKh2RDFCGRc4W" version="15.9.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-06T09:40:51.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="hMrUo_UO0ctddkbTNYi8" version="15.9.1" type="github" pages="7">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="830" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -753,7 +753,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMcGX0HVTXkS029tIjGP" name="整体技术架构图">
-    <mxGraphModel dx="208" dy="186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="722" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-28rHK7A_CwQRPw1xP85-0" />
         <mxCell id="-28rHK7A_CwQRPw1xP85-1" parent="-28rHK7A_CwQRPw1xP85-0" />
@@ -783,9 +783,6 @@
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-9" value="&lt;b&gt;hogo_basic_log&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
           <mxGeometry x="1804" y="822" width="38" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="oc2LODxZSI1QTQIaEUhS-10" value="OSS存储" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Backup.svg;fontColor=#333333;strokeWidth=1;fillColor=none;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1343" y="408" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-11" value="" style="group" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1" connectable="0">
           <mxGeometry x="660" y="798" width="176" height="91.5" as="geometry" />
@@ -1162,6 +1159,14 @@
         <mxCell id="lnp73TLgd65VNtihpmOI-12" value="&lt;p style=&quot;line-height: 1&quot;&gt;&lt;b&gt;jeepay-ui-cashier&lt;/b&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#333333;fontStyle=1;align=center;" vertex="1" parent="lnp73TLgd65VNtihpmOI-8">
           <mxGeometry y="45.5" width="176" height="46" as="geometry" />
         </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-41" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;startArrow=classic;startFill=1;entryX=0.929;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.929;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="-28rHK7A_CwQRPw1xP85-1" source="e9DWrDb203leDy7fHvNe-0" target="e9DWrDb203leDy7fHvNe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-42" value="支付服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e9DWrDb203leDy7fHvNe-41">
+          <mxGeometry x="0.2434" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e9DWrDb203leDy7fHvNe-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="-28rHK7A_CwQRPw1xP85-1">
           <mxGeometry x="270" y="538.75" width="1260" height="360" as="geometry" />
         </mxCell>
@@ -1235,6 +1240,42 @@
         </mxCell>
         <mxCell id="e9DWrDb203leDy7fHvNe-22" value="消息队列服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e9DWrDb203leDy7fHvNe-21">
           <mxGeometry x="-0.0186" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-36" value="" style="group" vertex="1" connectable="0" parent="-28rHK7A_CwQRPw1xP85-1">
+          <mxGeometry x="1160" y="398" width="190.75" height="91.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oc2LODxZSI1QTQIaEUhS-10" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Backup.svg;fontColor=#333333;strokeWidth=1;fillColor=none;" parent="e9DWrDb203leDy7fHvNe-36" vertex="1">
+          <mxGeometry x="63" y="10" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-29" value="" style="group" vertex="1" connectable="0" parent="e9DWrDb203leDy7fHvNe-36">
+          <mxGeometry width="190.75" height="91.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#409EFF;fillColor=none;" vertex="1" parent="e9DWrDb203leDy7fHvNe-29">
+          <mxGeometry width="176" height="78.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-31" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;OSS存储&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#333333;fontStyle=1;align=center;" vertex="1" parent="e9DWrDb203leDy7fHvNe-29">
+          <mxGeometry x="1" y="43.5" width="176" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-37" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;startArrow=classic;startFill=1;" edge="1" parent="-28rHK7A_CwQRPw1xP85-1" source="e9DWrDb203leDy7fHvNe-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1248" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-40" value="文件存储服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e9DWrDb203leDy7fHvNe-37">
+          <mxGeometry x="0.2184" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-38" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;startArrow=classic;startFill=1;entryX=0.776;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-28rHK7A_CwQRPw1xP85-1" source="e9DWrDb203leDy7fHvNe-30" target="e9DWrDb203leDy7fHvNe-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9DWrDb203leDy7fHvNe-39" value="文件存储服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e9DWrDb203leDy7fHvNe-38">
+          <mxGeometry x="0.1076" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
