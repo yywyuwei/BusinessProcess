@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-21T06:42:08.198Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="uv9ODzbOxO1LazrW04Hx" version="16.4.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-01-21T06:45:05.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="Zbu-yh7o_ectJXJa_82E" version="16.4.3" type="github" pages="7">
   <diagram id="DzECSvU7NwYgkoOeOgAR" name="总体系统处理流程图">
     <mxGraphModel dx="1059" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -794,7 +794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMcGX0HVTXkS029tIjGP" name="整体技术架构图">
-    <mxGraphModel dx="1059" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-28rHK7A_CwQRPw1xP85-0" />
         <mxCell id="-28rHK7A_CwQRPw1xP85-1" parent="-28rHK7A_CwQRPw1xP85-0" />
@@ -834,7 +834,7 @@
           <mxGeometry width="70" height="190" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-9" value="&lt;b&gt;hogo_basic_log&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1879" y="822" width="38" height="50" as="geometry" />
+          <mxGeometry x="1879" y="934" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-11" value="" style="group" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1" connectable="0">
           <mxGeometry x="685" y="798" width="176" height="91.5" as="geometry" />
@@ -1101,25 +1101,25 @@
           <mxGeometry x="102" y="5.25" width="66" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-104" value="&lt;b&gt;hogo_basic_main_data&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1730" y="822" width="38" height="50" as="geometry" />
+          <mxGeometry x="1730" y="934" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-105" value="&lt;b&gt;hogo_basic_org_person&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1730" y="735" width="38" height="50" as="geometry" />
+          <mxGeometry x="1730" y="847" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-106" value="&lt;b&gt;hogo_basic_rbac&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1730" y="649" width="38" height="50" as="geometry" />
+          <mxGeometry x="1730" y="761" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-107" value="&lt;b&gt;hogo_basic_store&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1879" y="735" width="38" height="50" as="geometry" />
+          <mxGeometry x="1879" y="847" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-108" value="&lt;b&gt;hogopark_iot&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1730" y="554" width="38" height="50" as="geometry" />
+          <mxGeometry x="1730" y="666" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-109" value="&lt;b&gt;hogopark_pay&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
           <mxGeometry x="1777" y="205.75" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-110" value="&lt;b&gt;hogopark_park&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1879" y="554" width="38" height="50" as="geometry" />
+          <mxGeometry x="1879" y="666" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oc2LODxZSI1QTQIaEUhS-111" value="" style="group" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1" connectable="0">
           <mxGeometry x="480" y="398" width="176" height="91.5" as="geometry" />
@@ -1232,7 +1232,7 @@
           <mxGeometry x="295" y="120" width="1260" height="220" as="geometry" />
         </mxCell>
         <mxCell id="e9DWrDb203leDy7fHvNe-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="1659" y="538.75" width="310" height="370" as="geometry" />
+          <mxGeometry x="1659" y="540" width="310" height="480" as="geometry" />
         </mxCell>
         <mxCell id="e9DWrDb203leDy7fHvNe-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
           <mxGeometry x="1659" y="120.75" width="310" height="220" as="geometry" />
@@ -1338,7 +1338,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e9DWrDb203leDy7fHvNe-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="-28rHK7A_CwQRPw1xP85-1" vertex="1">
-          <mxGeometry x="240" y="-440" width="1773" height="920" as="geometry" />
+          <mxGeometry x="240" y="80" width="1790" height="990" as="geometry" />
         </mxCell>
         <mxCell id="7_IRRyubnMR2DPAmKX7y-8" value="" style="group" vertex="1" connectable="0" parent="-28rHK7A_CwQRPw1xP85-1">
           <mxGeometry x="805" y="559" width="176" height="91.5" as="geometry" />
@@ -1411,6 +1411,9 @@
         </mxCell>
         <mxCell id="7_IRRyubnMR2DPAmKX7y-31" value="" style="sketch=0;html=1;fillColor=#5184F3;strokeColor=none;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=mxgraph.gcp2.hexIcon;prIcon=stackdriver;dashed=1;" vertex="1" parent="7_IRRyubnMR2DPAmKX7y-28">
           <mxGeometry x="102" y="5.25" width="66" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7_IRRyubnMR2DPAmKX7y-44" value="&lt;b&gt;hogopark_dc&lt;/b&gt;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;dashed=1;fillColor=#409EFF;" vertex="1" parent="-28rHK7A_CwQRPw1xP85-1">
+          <mxGeometry x="1730" y="570" width="38" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
